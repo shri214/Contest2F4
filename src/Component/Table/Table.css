@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&family=Varela&family=Varela+Round&display=swap");
+/*
+font-family: 'Philosopher', sans-serif;
+font-family: 'Varela', sans-serif;
+font-family: 'Varela Round', sans-serif;
+*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Varela Round";
+}
+.table {
+  width: 80%;
+  display: block;
+  margin: auto;
+  border-spacing: inherit;
+}
+
+.table_heading tr {
+  background: radial-gradient(rgb(173, 221, 233), transparent);
+}
+.table_heading tr th {
+  width: 1%;
+  padding: 4px 0px;
+  font-size: 1.5rem;
+  height: 70px;
+}
+
+.table_body tr:nth-child(even) {
+  background: radial-gradient(rgb(173, 221, 233), transparent);
+}
+.table_body tr:nth-child(odd) {
+  background: radial-gradient(rgb(231, 146, 223), transparent);
+}
+.table_body tr td {
+  text-align: center;
+}
+.image img {
+  height: 100px;
+}
+
+.h-primary {
+  background-color: black;
+  color: tomato;
+  text-align: center;
+  letter-spacing: 1px;
+  text-shadow: 3px 1px 2px white;
+  height: 50px;
+}
